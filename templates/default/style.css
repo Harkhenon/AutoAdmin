@@ -1,0 +1,241 @@
+/*
+////////////////////
+//Balises de bases//
+////////////////////
+*/
+
+body {
+	color: black;
+	width: 100%;
+	margin: 0 auto;
+	background: url(images/fond.png);
+	background-color:#303030;
+	font-family: Verdana;
+	}
+input
+{
+}
+
+iframe
+{
+ width: 200px;
+ height: 170px;
+ }
+textarea
+{
+height: 100px;
+width: 300px;
+}
+div#right
+	{
+		text-align: right;
+		float: right;
+	}
+a
+{
+	color: rgb(150, 200, 50);
+	text-decoration: none;
+	font-size: 11px;
+}
+a:hover
+{
+	text-shadow: #000 1px 1px 2px;
+	text-decoration: none;
+	font-weight: bold;
+}
+img
+{
+border: none;
+background: none;
+}
+p
+{
+font-size: 12px;
+}
+/*
+/////////////////////
+//Balises de classe//
+/////////////////////
+*/
+.warning
+{
+color: red;
+text-decoration: underline;
+}
+.center
+{
+text-align: center;
+margin: 0 auto;
+}
+.team
+{
+text-align: left;
+margin-left: 20px;
+color: rgb(150, 0, 0);
+}
+/*
+////////////////////
+// Balises en ID  //
+////////////////////
+*/
+#header {
+	background-repeat: none;
+	width: 100%;
+	margin: 0 auto;
+	font-family: Verdana, Geneva, sans-serif;
+	color: white;
+}
+#menu_liens
+{
+max-width: 500px;
+min-width: 50px;
+border: 1px solid;
+background-color: rgba(125, 125, 125, 0.3);
+margin: 0 auto;
+-moz-border-radius-bottomright:12px;
+-webkit-border-radius-bottomright: 12px;
+border-bottom-right-radius: 12px;
+-moz-border-radius-topleft:12px;
+-webkit-border-radius-topleft: 12px;
+border-top-left-radius: 12px;
+padding: 5px;
+margin-top: 10px;
+text-align: center;
+color: white;
+}
+
+#corps {
+	height: 100%;
+	width: 97%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	clear: both;
+}
+#footer {
+width: 20%;
+border: 1px solid;
+background-color: rgba(125, 125, 125, 0.3);
+margin: 0 auto;
+-moz-border-radius-bottomright:12px;
+-webkit-border-radius-bottomright: 12px;
+border-bottom-right-radius: 12px;
+-moz-border-radius-topleft:12px;
+-webkit-border-radius-topleft: 12px;
+border-top-left-radius: 12px;
+padding: 5px;
+margin-top: 10px;
+text-align: center;
+margin-bottom: 20px;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 10px;
+color: white;
+}
+#login {
+	min-width: 150px;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 5px;
+	margin-right: 20px;
+	background: url(images/fond_login.png);
+		-moz-border-radius-bottomright:12px;
+	-webkit-border-radius-bottomright: 12px;
+	border-bottom-right-radius: 12px;
+			-moz-border-radius-topleft:12px;
+	-webkit-border-radius-topleft: 12px;
+	border-top-left-radius: 12px;
+	border: 1px groove;
+color: white;
+}
+#login input {
+	font-family: "Comic Sans MS", cursive;
+	padding: 3px;
+	border: 0;
+	color: #FFF;
+	width: 100px;
+	font-size: 12px;
+	-moz-border-radius:8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background: none;
+	border: 2px groove;
+	color: white;
+}
+#login input[type=button] {
+background: #212548;
+}
+#contenu {
+	width: 60%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: rgb(230, 230, 230);
+-moz-border-radius-bottomright:12px;
+-webkit-border-radius-bottomright: 12px;
+border-bottom-right-radius: 12px;
+-moz-border-radius-topleft:12px;
+-webkit-border-radius-topleft: 12px;
+border-top-left-radius: 12px;
+	color: black;
+	margin-top: 20px;
+}
+#titre_validation td
+{
+width: auto;
+height: auto;
+padding: 3px;
+background-color: grey;
+text-align: center;
+font-size: 14px;
+-moz-border-radius:8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+-moz-border-radius:8px;
+-webkit-border-radius: 8px;
+color: rgb(255, 183, 183);
+}
+#donnee_validation td
+{
+height: 15px;
+width: auto;
+text-align: center;
+font-size: 10px;
+color: black;
+}
+#donnee_validation img
+{
+height: 15px;
+width: 15px;
+}
+#tab_mem tr td
+{
+border: none;
+text-align: left;
+padding: 5px;
+color: rgb(150, 200, 50);
+font-size: 16px;
+}
+#table
+{
+width: 96%;
+height: auto;
+-moz-border-radius:12px;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+background: rgb(50, 50, 50);
+color: white;
+padding: 10px;
+margin: 10px
+}
+#fond_cool
+{
+-moz-border-radius:8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+background: rgba(0, 0, 0, 0.4);
+padding: 2px;
+box-shadow:#000 1px 1px 13px ;
+-moz-box-shadow:#000 1px 1px 13px ;
+-webkit-box-shadow:#000 1px 1px 13px ;
+}

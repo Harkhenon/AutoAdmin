@@ -1,0 +1,40 @@
+#news
+{
+margin: 0 auto;
+width: 700px;
+}
+.titre_news
+{
+background: url(../../images/haut_news.jpg);
+-moz-border-radius-topleft:8px;
+-webkit-border-radius-topleft: 8px;
+border-top-left-radius: 8px;
+-moz-border-radius-topright:8px;
+-webkit-border-radius-topright: 8px;
+border-top-right-radius: 8px;
+padding: 5px;
+color: white;
+}
+.titre_news img
+{
+max-width: 20px;
+max-height: 20px;
+border: none;
+}
+.contenu_news
+{
+background-color: lightgrey;
+padding: 20px;
+}
+.auteur
+{
+color: white;
+background: url(../../images/bas_news.jpg);
+-moz-border-radius-bottomleft:8px;
+-webkit-border-radius-bottomleft: 8px;
+border-bottom-left-radius: 8px;
+-moz-border-radius-bottomright:8px;
+-webkit-border-radius-bottomright: 8px;
+border-bottom-right-radius: 8px;
+padding: 5px;
+}
